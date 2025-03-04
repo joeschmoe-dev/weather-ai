@@ -23,6 +23,10 @@ Ensure all dependencies are installed before running the project. The Python scr
 - **requests** (For interacting with the LLM API)
 - **KoboldAI** (For hosting the local LLM)
 
+The Arduino IDE requires:
+
+- **Adafruit_AHTX0** (For proper communication with the AHT21 board)
+
 To install them, run:
 
 ```bash
