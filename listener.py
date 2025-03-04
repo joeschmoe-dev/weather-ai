@@ -4,7 +4,7 @@ import requests, random, os, edge_tts, time, asyncio
 from dotenv import load_dotenv
 import os
 
-
+load_dotenv()
 
 model = Model(os.getenv("VOSKAI_MODEL"))  # Provide path to a pre-downloaded Vosk model
 recognizer = KaldiRecognizer(model, 16000)
