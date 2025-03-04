@@ -26,7 +26,7 @@ Ensure all dependencies are installed before running the project. The Python scr
 To install them, run:
 
 ```bash
-pip install pyserial vosk pygame requests
+pip install pyserial vosk pygame requests dotenv
 ```
 
 ## Hardware Requirements
@@ -69,13 +69,16 @@ git clone https://github.com/joeschmoe-dev/weather-ai.git
 cd weather-ai
 ```
 
-2. Run the Python script:
+2. Set variables in the `.env` file, like `api-endpoint`
+
+
+3. Run the Python script:
 
 ```bash
 python listener.py
 ```
 
-3. Speak the trigger phrase (e.g., "What's the weather / how hot is it / what should I wear") and listen as the AI generates and plays the weather report.
+4. Speak the trigger phrase (e.g., "What's the weather / how hot is it / what should I wear") and listen as the AI generates and plays the weather report.
 
 ## Final Product
 
