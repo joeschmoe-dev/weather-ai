@@ -93,6 +93,10 @@ When the system is running:
 - The AI generates a weather report based on the current temperature.
 - The report is converted to speech and played out loud.
 
+## Demo
+
+[Google Drive Video](https://drive.google.com/file/d/1D7oyYRZ5Gi0mQyKdPDt-7_0FORbATLDX/view?usp=sharing)
+
 ## License
 
 This project is covered under the [Together forever license](https://github.com/joeschmoe-dev/togetherforeverlicense)
